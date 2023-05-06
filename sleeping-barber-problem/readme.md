@@ -1,6 +1,18 @@
-Sleeping barber problem
-All TODO done and changed to DONE
+Program to demonstrate the Sleeping Barber Problem
+N customers can sit in waiiting room
+waiting room is finite size
+when inactive, the barber sleeps
+If barber is sleeping, the customer should wake him
+If there is no more space in the queue/waiting room, the customer leaves
 
+Issues that can be demonstrated:
+- Livelock/Overutilization - barber is preoccupied with sth while trimming the client and ends up taking too much time yet the queue is growing
+- Underutilization - there are no customers and barber stays asleep
+
+Issues with this specific program: 
+
+- barber is chatty—livelock and overutilization
+- no customers— underutilization
 Notes:
 - queue.task_done lets workers say when a task is done. Someone waiting for all the work to be done with Queue.
 - has a bug where it loops on the last function.
