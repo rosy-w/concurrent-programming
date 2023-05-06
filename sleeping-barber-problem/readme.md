@@ -14,3 +14,6 @@ Notes:
 - has a bug where it loops on the last function.
 - change the euro sign in the last print stmt to "Barbers payment total:" due to an error that arose in my terminal for being non-utf-8.
 - ignore the error on Earnings in case it occurs. Works okay on local Visual Studio
+
+Run:
+python3 sleeping_barber.py > results.txt
