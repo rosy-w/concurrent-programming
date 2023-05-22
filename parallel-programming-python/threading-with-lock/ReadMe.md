@@ -1,4 +1,4 @@
-Using the Python 3 threading library to create a binary lock and a number of threads to independently use the lock to enter execution of a "critical" section of code. 
+Using the Python 3 threading library to create a **binary lock** and a number of threads to independently use the lock to enter execution of a "critical" section of code. 
 Feel free to modify numbers of threads to see the various effects this can have.  
 
 Run:
